@@ -6,5 +6,5 @@ public class MyArrayDataException extends NumberFormatException
         this.i=i;
         this.j=j;
     }
-    //git
+
 }
