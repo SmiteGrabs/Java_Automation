@@ -9,7 +9,7 @@ public class Course
  {
      this.course=new String[obstacleAmmount];
      Random rand = new Random();
-     for(int i=0;i<course.length;i++)
+     for(int i=0;i<course.length;i++) // Генерация случайных препятствий
      {
          this.course[i]=obstacleList[(rand.nextInt(5))];
      }

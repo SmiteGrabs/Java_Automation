@@ -5,7 +5,7 @@ public class Team
 
     public Team(String TeamName,String memberName1,String memberName2,String memberName3,String memberName4)
     {
-        this.name=TeamName;
+        this.name=TeamName; //Имя команды
         this.team[0]=memberName1;
         this.team[1]=memberName2;
         this.team[2]=memberName3;
